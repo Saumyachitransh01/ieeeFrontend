@@ -1,10 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import logo from "../Assets/logoiee2.png";
+import { Nav, Navbar } from "react-bootstrap";
 
 export default function Header() {
     return (
         <div className="Header">
+            <Navbar collapseOnSelect expand="lg" variant="dark">
+                <Navbar.Brand href=" ">
+                    <img src={logo} alt="IEEE" width="200"></img>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto"></Nav>
+                    <Nav>
+                        <Nav.Link href=" ">Home</Nav.Link>
+                        <Nav.Link href="https://ieeeditu.org.in">
+                            About
+                        </Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+            {/* 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a className="navbar-brand">
                     <img src={logo} alt="IEEE" width="200" />
@@ -13,9 +31,9 @@ export default function Header() {
                     className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
-                    data-target="#navbarNav"
+                    data-target="navbarNav"
                     aria-controls="navbarNav"
-                    aria-expanded="false"
+                    aria-expanded="true"
                     aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -37,22 +55,9 @@ export default function Header() {
                         <li className="nav-item">
                             <a className="nav-link">Contact</a>
                         </li>
-                        {/* <li>
-                            <a className="nav-link"> Dark Mode</a>
-                        </li>
-                        <label className="switch">
-                            <input
-                                type="checkbox"
-                                id="Check"
-                                onChange={DarkMode(this)}
-                                on
-                            />
-
-                            <span className=" slider round"></span>
-                        </label> */}
                     </ul>
                 </div>
-            </nav>
+            </nav> */}
         </div>
     );
 }

@@ -1,0 +1,11 @@
+.navbar-collapse,
+.collapse {
+    text-align: center;
+}
+
+.navbar,
+.navbar-expand-lg,
+.navbar-dark,
+.bg-dark {
+    background-color: rgb(31, 31, 31) !important;
+}

@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import Header from "./Component/Header/Header.jsx";
 import Footer from "./Component/Footer/Footer.jsx";
 import bg1 from "./Component/Images/bg_1.jpg";
