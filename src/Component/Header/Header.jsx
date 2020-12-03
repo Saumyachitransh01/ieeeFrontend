@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../logoiee2.png";
+import logo from "../Assets/logoiee2.png";
 
 export default function Header() {
-    const [value, setValue] = useState(false);
     return (
         <div className="Header">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
