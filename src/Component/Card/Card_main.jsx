@@ -12,7 +12,7 @@ export default function MediaCard({ image, title, text, link }) {
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{text}</Card.Text>
                     <Button size="sm" variant="primary" href={link}>
-                        Go somewhere
+                        View
                     </Button>
                 </Card.Body>
             </Card>
