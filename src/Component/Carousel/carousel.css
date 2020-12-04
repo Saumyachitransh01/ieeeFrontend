@@ -24,8 +24,7 @@ body {
 }
 .control-arrow,
 .control-prev {
-    color: lightgreen !important;
-    background-color: lightgray !important;
+    background-color: rgba(75, 75, 75, 0.26) !important;
 }
 
 .carousel-control-prev {
@@ -46,10 +45,11 @@ body {
 
 .thumbs-wrapper,
 .axis-vertical {
-    margin-left: auto !important;
+    /* margin-left: auto !important;
     margin-right: auto !important;
-    margin: auto !important;
-    text-align: center;
+    margin: auto !important; */
+    /* text-align: center; */
+    text-align: center !important;
 }
 
 .bg-dark {

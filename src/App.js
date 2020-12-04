@@ -1,41 +1,25 @@
 import "./App.css";
 import React from "react";
 import Header from "./Component/Header/Header.jsx";
+import Carousel from "./Component/Carousel/Carousel";
+import Card from "./Component/Card/Cards";
 import Footer from "./Component/Footer/Footer.jsx";
-import bg1 from "./Component/Images/bg_1.jpg";
-import bg2 from "./Component/Images/bg_2.jpg";
-import bg3 from "./Component/Images/bg_3.jpg";
-import "./Component/Assets/carousel.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 
 function App() {
     return (
         <div className="App" id="App1">
+            {/* Header of Website */}
             <Header />
-            <Carousel className="carousel">
-                <div className="carousel-item1">
-                    <img
-                        className="img-fluid"
-                        src={bg1}
-                        style={{ width: "auto" }}
-                        alt="first slide"></img>
-                </div>
-                <div className="carousel-item1">
-                    <img
-                        className="img-fluid"
-                        src={bg2}
-                        style={{ width: "auto" }}
-                        alt="first slide"></img>
-                </div>
-                <div className="carousel-item1">
-                    <img
-                        className="img-fluid"
-                        src={bg3}
-                        style={{ width: "auto" }}
-                        alt="first slide"></img>
-                </div>
-            </Carousel>
+
+            {/* Images on top of HomePage */}
+            <Carousel />
+
+            <h4 style={{ textAlign: "center" }}>Upcoming Event</h4>
+
+            {/* Card */}
+            <Card />
+
+            {/* Footer */}
             <Footer />
         </div>
     );
