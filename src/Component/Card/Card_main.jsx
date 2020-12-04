@@ -6,7 +6,7 @@ import "react-bootstrap/Container";
 export default function MediaCard({ image, title, text, link }) {
     return (
         <div className="Container">
-            <Card style={{ width: "18rem", margin: "20px" }}>
+            <Card style={{ width: "348px", margin: "20px" }}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
