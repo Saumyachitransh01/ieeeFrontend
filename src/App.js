@@ -5,6 +5,10 @@ import Carousel from "./Component/Carousel/Carousel";
 import Card from "./Component/Card/Cards";
 import Footer from "./Component/Footer/Footer.jsx";
 import Cloud from "./Component/Pages/Cloud_Workshop";
+import Cyber from "./Component/Pages/Cyberdome";
+import IOT from "./Component/Pages/IOT";
+import Linux from "./Component/Pages/Linux_Bootcamp";
+import WebDev from "./Component/Pages/Web_Dev";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -18,15 +22,19 @@ function App() {
                     </Route>
                     <Route path="/Cyberdome">
                         <Header />
+                        <Cyber />
                     </Route>
                     <Route path="/IOT">
                         <Header />
+                        <IOT />
                     </Route>
                     <Route path="/linux">
                         <Header />
+                        <Linux />
                     </Route>
                     <Route path="/web">
                         <Header />
+                        <WebDev />
                     </Route>
 
                     <Route path="">
