@@ -1,33 +1,48 @@
 import React from "react";
-import Cyber from "../Images/cyber2.jpg";
+import Cyber from "../Images/cyber.jpg";
 import "react-bootstrap/dist/react-bootstrap";
 
-export default function Cyberdome()
-{
+export default function Cyberdome() {
     return (
         <div>
-            <div className="col-md-12"><center>
-                <div className="a">
-                    <h2 className="mb-3">#2.Cyberdome</h2>
-                </div>
+            <div className="col-md-12">
+                <center>
+                    <div className="a">
+                        <h2 className="mb-3">#2.Cyberdome</h2>
+                    </div>
 
-                <div className="a">
-                    <img src={Cyber} alt="" class="img-fluid" width="660" height="345" />
-                </div></center>
+                    <div className="a">
+                        <img
+                            src={Cyber}
+                            alt=""
+                            class="img-fluid"
+                            width="660"
+                            height="345"
+                        />
+                    </div>
+                </center>
                 <br />
                 <p>
-                        Description:Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information
-                        security. The term applies in a variety of contexts, from business to mobile computing.Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are
-                        becoming more innovative.
+                    Description:Cyber security is the practice of defending
+                    computers, servers, mobile devices, electronic systems,
+                    networks, and data from malicious attacks. It's also known
+                    as information technology security or electronic information
+                    security. The term applies in a variety of contexts, from
+                    business to mobile computing.Implementing effective
+                    cybersecurity measures is particularly challenging today
+                    because there are more devices than people, and attackers
+                    are becoming more innovative.
                 </p>
                 <p>
                     <h3>Topics Covered:</h3>
                     <ul>
-                    <li>Fundamental of Ethical Hacking</li>
+                        <li>Fundamental of Ethical Hacking</li>
                         <li>Virtualization & System Cloning</li>
                         <li>Windows Hacking & Security (Win 8 & Win 7)</li>
                         <li>Online Cloud Computer Development</li>
-                        <li>Hacking by Viruses, Trojans, Keyloggers & Spywares</li>
+                        <li>
+                            Hacking by Viruses, Trojans, Keyloggers & Spywares
+                        </li>
                         <li>Facebook Hacking & Security</li>
                         <li>Website & Database Hacking Attacks</li>
                         <li>Credit Card Frauds & Cases</li>
@@ -57,14 +72,19 @@ export default function Cyberdome()
                     <p>Yes</p>
                     <h3>Note:</h3>
                     <ul>
-                        <li>Relevant links will be sent via email after registration.</li>
+                        <li>
+                            Relevant links will be sent via email after
+                            registration.
+                        </li>
                         <li>Tickets are NON REFUNDABLE</li>
                         <li>Laptops are required but not mandatory to bring</li>
                         <li>No flaming. No flooding. No spamming.</li>
                     </ul>
                     <h1>
                         <b class="text-muted">
-                            <button type="button" class="btn btn-primary">Register Here</button>
+                            <button type="button" class="btn btn-primary">
+                                Register Here
+                            </button>
                         </b>
                     </h1>
                 </p>
@@ -84,7 +104,6 @@ export default function Cyberdome()
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
         // </div>

@@ -1,19 +1,19 @@
 import React from "react";
-import IOT_img from "../Images/iot.jpg";
+import web from "../Images/web.jpg";
 import "react-bootstrap/dist/react-bootstrap";
 
-export default function IOT() {
+export default function Web_Dev() {
     return (
         <div>
             <div className="col-md-12">
                 <center>
                     <div className="a">
-                        <h2 className="mb-3">#3.IOT Workshop</h2>
+                        <h2 className="mb-3">#5.WebDevelopment Webinar</h2>
                     </div>
 
                     <div className="a">
                         <img
-                            src={IOT_img}
+                            src={web}
                             alt=""
                             class="img-fluid"
                             width="660"
@@ -23,34 +23,33 @@ export default function IOT() {
                 </center>
                 <br />
                 <p>
-                    Description:The Internet of Things, or IoT, refers to the
-                    billions of physical devices around the world that are now
-                    connected to the internet, all collecting and sharing data.
-                    Thanks to the arrival of super-cheap computer chips and the
-                    ubiquity of wireless networks, it's possible to turn
-                    anything, from something as small as a pill to something as
-                    big as an aeroplane, into a part of the IoT. Connecting up
-                    all these different objects and adding sensors to them adds
-                    a level of digital intelligence to devices that would be
-                    otherwise dumb, enabling them to communicate real-time data
-                    without involving a human being.The Internet of Things is
-                    making the fabric of the world around us more smarter and
-                    more responsive, merging the digital and physical universes.
+                    Description:Web development is the work involved in
+                    developing a website for the Internet or an intranet. Web
+                    development can range from developing a simple single static
+                    page of plain text to complex web-based internet
+                    applications, electronic businesses, and social network
+                    services.Web development may be a collaborative effort
+                    between departments rather than the domain of a designated
+                    department. There are three kinds of web developer
+                    specialization: front-end developer, back-end developer, and
+                    full-stack developer. Front-end developers are responsible
+                    for behavior and visuals that run in the user browser,while
+                    back-end developers deal with the servers.
                 </p>
+
                 <h3>Topics Covered:</h3>
                 <ul>
-                    <li>Introduction to Robotics.</li>
-                    <li>Introduction to Embedded systems.</li>
-                    <li>Introduction to programming in embedded..</li>
-                    <li>Introduction to ADC..</li>
-                    <li>Introduction To Wifi.</li>
-                    <li>Introduction to ESP 8266 module.</li>
-                    <li>Introduction to GPRS and TCP/IP.</li>
+                    <li>Learn HTML,CSS</li>
+                    <li>Geeting started with java script.</li>
+                    <li>Creating a sample webpage.</li>
+                    <li>Working on servers by using nodejs.</li>
+                    <li>Learn Php</li>
                 </ul>
                 <h3>Eligibility:</h3>
                 <p>
-                    Anybody and everybody is welcome.Any Engineering student of
-                    any year and any branch is eligible for this workshop.
+                    Anybody and everybody is welcome. If you know nothing about
+                    code or markup and want to get started in web development
+                    then this will be good for you.
                 </p>
                 <h3>Skills you will gain:</h3>
                 <ul>
@@ -71,15 +70,12 @@ export default function IOT() {
                     </li>
                 </ul>
                 <h3>Prerequisite:</h3>
-                <p>
-                    Basic of Electronics,Basic knowledge Programming Language
-                    (like C).
-                </p>
+                <p>None</p>
                 <h3>Fee:</h3>
                 <ul>
                     <li>IEEE Member(CS): ₹ 30</li>
-                    <li>IEEE Member(Non CS): ₹ 40</li>
-                    <li>Non IEEE Member: ₹ 60</li>
+                    <li>IEEE Member(Non CS): ₹ 50</li>
+                    <li>Non IEEE Member: ₹ 80</li>
                 </ul>
                 <h3>Duration:</h3>
                 <p>8 hours (4 hour per day)</p>
@@ -95,6 +91,7 @@ export default function IOT() {
                     <li>Laptops are required but not mandatory to bring</li>
                     <li>No flaming. No flooding. No spamming.</li>
                 </ul>
+
                 <h1>
                     <b class="text-muted">
                         <button type="button" class="btn btn-primary">
@@ -105,16 +102,19 @@ export default function IOT() {
                 <div className="tag-widget post-tag-container mb-5 mt-5">
                     <div className="tagcloud">
                         <a href="#" className="tag-cloud-link">
-                            TCP
+                            HTML
                         </a>
                         <a href="#" className="tag-cloud-link">
-                            Embedded
+                            CSS
                         </a>
                         <a href="#" className="tag-cloud-link">
-                            Tech
+                            Java Script
                         </a>
                         <a href="#" className="tag-cloud-link">
-                            C
+                            Nodejs
+                        </a>
+                        <a href="#" className="tag-cloud-link">
+                            PHP
                         </a>
                     </div>
                 </div>

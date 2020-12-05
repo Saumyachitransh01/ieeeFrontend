@@ -9,7 +9,7 @@ import "./carousel.css";
 export default function Home_Carousel() {
     return (
         <div>
-            <Carousel className="carousel">
+            <Carousel className="carousel" useKeyboardArrows="true">
                 <div className="carousel-item1">
                     <img
                         className="img-fluid"
@@ -30,6 +30,20 @@ export default function Home_Carousel() {
                         src={bg3}
                         style={{ width: "auto" }}
                         alt="Third slide"></img>
+                </div>
+                <div className="carousel-item1">
+                    <img
+                        className="img-fluid"
+                        src={bg2}
+                        style={{ width: "auto" }}
+                        alt="First slide"></img>
+                </div>
+                <div className="carousel-item1">
+                    <img
+                        className="img-fluid"
+                        src={bg3}
+                        style={{ width: "auto" }}
+                        alt="First slide"></img>
                 </div>
             </Carousel>
         </div>

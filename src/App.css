@@ -1,0 +1,18 @@
+/* .App {
+    background-image: url("logoiee2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-position: center;
+} */
+
+.container {
+    flex: 0.8;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.col-md-4 {
+    display: block;
+}

@@ -5,14 +5,21 @@ import "react-bootstrap/dist/react-bootstrap";
 export default function Cloud_Workshop() {
     return (
         <div>
-            <div className="col-md-12">
-                <div className="a">
-                    <h2 className="mb-3">#1.Cloud Workshop</h2>
-                </div>
+            <div class="col-md-12">
+                <center>
+                    <div class="a">
+                        <h2 class="mb-3">#1.Cloud Workshop</h2>
+                    </div>
 
-                <div className="a">
-                    <img src={Cloud} alt="" className="img-fluid" />
-                </div>
+                    <div class="a">
+                        <img
+                            src={Cloud}
+                            alt=""
+                            class="img-fluid"
+                            width="600px"
+                        />
+                    </div>
+                </center>
                 <br />
                 <p>
                     Description:Cloud Computing is the use of hardware and
@@ -80,58 +87,57 @@ export default function Cloud_Workshop() {
                         <li>No flaming. No flooding. No spamming.</li>
                     </ul>
                     <h1>
-                        <b className="text-muted">
-                            <button type="button" className="btn btn-primary">
+                        <b class="text-muted">
+                            <button type="button" class="btn btn-primary">
                                 Register Here
                             </button>
                         </b>
                     </h1>
                 </p>
-                <div className="tag-widget post-tag-container mb-5 mt-5">
-                    <div className="tagcloud">
-                        <a href="#" className="tag-cloud-link">
+                <div class="tag-widget post-tag-container mb-5 mt-5">
+                    <div class="tagcloud">
+                        <a href="#" class="tag-cloud-link">
                             AWS
                         </a>
-                        <a href="#" className="tag-cloud-link">
+                        <a href="#" class="tag-cloud-link">
                             API
                         </a>
-                        <a href="#" className="tag-cloud-link">
+                        <a href="#" class="tag-cloud-link">
                             Tech
                         </a>
-                        <a href="#" className="tag-cloud-link">
+                        <a href="#" class="tag-cloud-link">
                             EC2
                         </a>
                     </div>
                 </div>
 
-                {/* <div className="comment-form-wrap pt-5">
-                <h3 className="mb-5">Leave a comment</h3>
-                <form action="#" className="bg-light p-4">
-                    <div className="form-group">
+                {/* <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#" class="bg-light p-4">
+                    <div class="form-group">
                         <label for="name">Name *</label>
-                        <input type="text" className="form-control" id="name">
+                        <input type="text" class="form-control" id="name">
                     </div>
-                    <div className="form-group">
+                    <div class="form-group">
                         <label for="email">Email *</label>
-                        <input type="email" className="form-control" id="email">
+                        <input type="email" class="form-control" id="email">
                     </div>
-                    <div className="form-group">
+                    <div class="form-group">
                         <label for="website">Website</label>
-                        <input type="url" className="form-control" id="website">
+                        <input type="url" class="form-control" id="website">
                     </div>
 
-                    <div className="form-group">
+                    <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea name="" id="message" cols="30" rows="10" className="form-control"></textarea>
+                        <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
                     </div>
-                    <div className="form-group">
-                        <input type="submit" value="Post Comment" className="btn py-3 px-4 btn-primary">
+                    <div class="form-group">
+                        <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
                     </div>
 
                 </form>
             </div> */}
             </div>
         </div>
-        // </div>
     );
 }
