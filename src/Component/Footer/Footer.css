@@ -1,4 +1,7 @@
-.Footer {
+
+footer{
     text-align: center;
-    /* margin-top: 80%; */
+    padding: 20px;
+    background-color: #404040;
+    color: white;
 }
