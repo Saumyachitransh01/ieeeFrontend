@@ -15,7 +15,7 @@ export default function Cyberdome() {
                         <img
                             src={Cyber}
                             alt=""
-                            class="img-fluid"
+                            className="img-fluid"
                             width="660"
                             height="345"
                         />
@@ -81,8 +81,8 @@ export default function Cyberdome() {
                         <li>No flaming. No flooding. No spamming.</li>
                     </ul>
                     <h1>
-                        <b class="text-muted">
-                            <button type="button" class="btn btn-primary">
+                        <b className="text-muted">
+                            <button type="button" className="btn btn-primary">
                                 Register Here
                             </button>
                         </b>

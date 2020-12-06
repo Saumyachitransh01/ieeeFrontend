@@ -15,7 +15,7 @@ export default function Web_Dev() {
                         <img
                             src={web}
                             alt=""
-                            class="img-fluid"
+                            className="img-fluid"
                             width="660"
                             height="345"
                         />
@@ -93,8 +93,8 @@ export default function Web_Dev() {
                 </ul>
 
                 <h1>
-                    <b class="text-muted">
-                        <button type="button" class="btn btn-primary">
+                    <b className="text-muted">
+                        <button type="button" className="btn btn-primary">
                             Register Here
                         </button>
                     </b>

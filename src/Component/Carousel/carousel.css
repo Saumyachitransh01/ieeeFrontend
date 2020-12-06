@@ -35,12 +35,18 @@ body {
 
 .carousel-item1 {
     height: 100% !important;
-    max-height: 32rem;
+    max-height: 32rem !important;
     background-color: rgb(248, 248, 248);
 }
 
 .carousel-item1 > img {
-    max-width: fit-content 80px !important;
+    width: 5000px !important;
+    max-height: 32rem;
+    object-fit: cover;
+}
+
+.thumb {
+    border-radius: 10px !important;
 }
 
 .thumbs-wrapper,

@@ -6,9 +6,9 @@ import "react-bootstrap/";
 export default function Footer() {
     return (
         <div>
-            <footer class="w3-container w3-padding-32 w3-indigo">
-                <div class="w2-row-padding">
-                    <div class="w2-second">
+            <footer className="w3-container w3-padding-32 w3-indigo">
+                <div className="w2-row-padding">
+                    <div className="w2-second">
                         <h3 align="center">ABOUT</h3>
                         <p align="justify">
                             The IEEE Computer Society is the world’s leading
@@ -35,41 +35,41 @@ export default function Footer() {
                             spectrum of technology.
                         </p>
                     </div>
-                    <div class="w3-third">
+                    <div className="w3-third">
                         <center>
                             <h3>Social Media</h3>
                             <p>
-                                <div class="w3-panel w3-large">
+                                <div className="w3-panel w3-large">
                                     &nbsp;&nbsp;&nbsp;
                                     <a href="https://www.facebook.com/pg/ieeeditu">
-                                        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                                        <i className="fa fa-facebook-official w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                     <a href="https://www.instagram.com/ieeeditu">
-                                        <i class="fa fa-instagram w3-hover-opacity"></i>
+                                        <i className="fa fa-instagram w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                     <a href="https://github.com/ieeeditu">
-                                        <i class="fa fa-github w3-hover-opacity"></i>
+                                        <i className="fa fa-github w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                     <a href="https://medium.com/ieeeditu">
-                                        <i class="fa fa-medium w3-hover-opacity"></i>
+                                        <i className="fa fa-medium w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                     <a href="https://fr.linkedin.com/company/ieeeditu">
-                                        <i class="fa fa-linkedin w3-hover-opacity"></i>
+                                        <i className="fa fa-linkedin w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                     <a href="">
-                                        <i class="fa fa-twitter w3-hover-opacity"></i>
+                                        <i className="fa fa-twitter w3-hover-opacity"></i>
                                     </a>
                                     &nbsp; &nbsp; &nbsp;
                                 </div>
                             </p>
                         </center>
                     </div>
-                    <div class="w3-black w3-center w3-padding-24">
+                    <div className="w3-black w3-center w3-padding-24">
                         <center>
                             <p>
                                 Contact Us :{" "}
@@ -81,7 +81,7 @@ export default function Footer() {
                                     href="https://ieeeditu.org.in"
                                     title="IEEE Computer Society"
                                     target="_blank"
-                                    class="w3-hover-opacity">
+                                    className="w3-hover-opacity">
                                     IEEE Student Branch
                                 </a>
                             </p>

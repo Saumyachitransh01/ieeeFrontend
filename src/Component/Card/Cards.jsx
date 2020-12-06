@@ -7,7 +7,6 @@ import Cyberdome from "../Images/cyber.jpg";
 import IOT from "../Images/iot.jpg";
 import Linux from "../Images/linux.jpg";
 import Web from "../Images/web.jpg";
-import Car from "./Card_TestFile";
 
 export default function Cards() {
     return (

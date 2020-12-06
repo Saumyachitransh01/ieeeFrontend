@@ -10,7 +10,7 @@ import CardTest from "./Component/Card/Card_TestFile";
 import IOT from "./Component/Pages/IOT";
 import Linux from "./Component/Pages/Linux_Bootcamp";
 import WebDev from "./Component/Pages/Web.jsx";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
     return (
@@ -51,7 +51,14 @@ function App() {
                         {/* Images on top of HomePage */}
                         <Carousel />
 
-                        <h3 style={{ textAlign: "center" }}>Upcoming Event</h3>
+                        <h3
+                            style={{
+                                textAlign: "center",
+                                color: "grey",
+                                marginBottom: "20px",
+                            }}>
+                            Upcoming Event
+                        </h3>
 
                         {/* Card */}
 
