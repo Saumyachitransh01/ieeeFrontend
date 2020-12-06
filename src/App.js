@@ -43,7 +43,7 @@ function App() {
                         <Footer />
                     </Route>
 
-                    <Route path="">
+                    <Route path="/">
                         <div className="BG"></div>
                         {/* Header of Website */}
                         <Header />
