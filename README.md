@@ -7,6 +7,11 @@
 
 4. Final folders look like below <br>
 ![Screenshot](Directory.png)
+
+
+5.OR Download zip file. :- https://drive.google.com/file/d/1-SnGOGVxEirkhz83gNfe0sDMphJmV98q/view?usp=sharing
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
