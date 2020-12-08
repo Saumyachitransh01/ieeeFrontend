@@ -8,10 +8,7 @@ export default function Web_Dev() {
             <div className="col-md-12">
                 <center>
                     <div className="a">
-                        <h2 className="mb-3">#5.WebDevelopment Webinar</h2>
-                    </div>
-
-                    <div className="a">
+                        <h2 className="mb-3">5. Web Development Webinar</h2>
                         <img
                             src={web}
                             alt=""

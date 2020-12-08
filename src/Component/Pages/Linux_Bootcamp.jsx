@@ -9,9 +9,6 @@ export default function Linux_Bootcamp() {
                 <center>
                     <div className="a">
                         <h2 className="mb-3">#4.Linux Bootcamp</h2>
-                    </div>
-
-                    <div className="a">
                         <img
                             src={Linux}
                             alt=""

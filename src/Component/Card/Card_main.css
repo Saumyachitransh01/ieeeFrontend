@@ -33,3 +33,6 @@
     align-items: center;
     align-items: center !important;
 }
+a+a {
+    margin-left: 10px;
+  }

@@ -8,10 +8,7 @@ export default function Cyberdome() {
             <div className="col-md-12">
                 <center>
                     <div className="a">
-                        <h2 className="mb-3">#2.Cyberdome</h2>
-                    </div>
-
-                    <div className="a">
+                        <h2 className="mb-3">2. Cyberdome</h2>
                         <img
                             src={Cyber}
                             alt=""

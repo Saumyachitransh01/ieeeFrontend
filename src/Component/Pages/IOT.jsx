@@ -8,10 +8,7 @@ export default function IOT() {
             <div className="col-md-12">
                 <center>
                     <div className="a">
-                        <h2 className="mb-3">#3.IOT Workshop</h2>
-                    </div>
-
-                    <div className="a">
+                        <h2 className="mb-3">3. IOT Workshop</h2>
                         <img
                             src={IOT_img}
                             alt=""
