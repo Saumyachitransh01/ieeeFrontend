@@ -8,10 +8,7 @@ export default function Cloud_Workshop() {
             <div className="col-md-12">
                 <center>
                     <div className="a">
-                        <h2 className="mb-3">#1.Cloud Workshop</h2>
-                    </div>
-
-                    <div className="a">
+                        <h2 className="mb-3">1. Cloud Workshop</h2>
                         <img
                             src={Cloud}
                             alt=""

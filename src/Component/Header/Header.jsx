@@ -6,7 +6,7 @@ import { Nav, Navbar } from "react-bootstrap";
 export default function Header() {
     return (
         <div className="Header">
-            <Navbar className="nav" collapseOnSelect expand="lg" variant="dark">
+            <Navbar className="nav" collapseOnSelect expand="lg" variant="dark" fixed='top'>
                 <Navbar.Brand href="/">
                     <img src={logo} alt="IEEE" width="200"></img>
                 </Navbar.Brand>
